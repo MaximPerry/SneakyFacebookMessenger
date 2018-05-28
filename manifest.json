@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Facebook Camouflage",
+    "version": "1.0",
+  
+    "description": "Changes the look of facebook.com",
+  
+    "icons": {
+      "48": "icons/logoS.png",
+      "96": "icons/logoB.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.facebook.com/*"],
+        "css": [ "style.css" ],
+        "js": ["content.js"]
+      }
+    ]
+  }
