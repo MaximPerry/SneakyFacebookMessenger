@@ -1,0 +1,20 @@
+{
+  "name": "fbcamouflage",
+  "productName": "FB Camouflage",
+  "description": "A subtile way to spend time on Facebook.",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-packager": "^8.7.2",
+    "electron-winstaller": "^2.6.4",
+    "extract-zip": "^1.0.3"
+  },
+  "scripts": {
+    "compile": "electron-packager . FacebookCamouflage --overwrite --asar=true --platform=win32 --arch=ia32 --icon=img/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"FB Camouflage\"",
+    "create-installer-win": "node installers/windows/createinstaller.js"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
