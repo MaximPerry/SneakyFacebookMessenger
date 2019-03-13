@@ -13,6 +13,7 @@ html {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 body {
     height: calc(100% - 80px);
@@ -53,4 +54,9 @@ li {
 }
 #webview {
     height: 100%;
+}
+#chatIcons {
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
 }
