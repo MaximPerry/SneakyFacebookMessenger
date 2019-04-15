@@ -7,24 +7,35 @@
     </head>
     <body>
         <!-- Main content goes here -->
+        <div id="winNav">
+            <ul>
+                <li><img src="img/chat.png" alt=""></li>
+                <li><p>Doe, John MP [NC]</p></li>
+            </ul>
+            <ul id="winButtons">
+                <li><button onclick="window.close();"><img src="img/close.png" alt=""></button></li>
+                <li><button><img src="img/maximize.png" alt=""></button></li>
+                <li><button><img src="img/minimize.png" alt=""></button></li>
+            </ul>
+        </div>
+
         <header>
-            <img class="status" src="img/statusicon.png" alt="">
-            <p class="name">Doe, John [NC] - Offline <span class="time">14 hours</span></p>
+            <img class="person" src="img/person.png" alt="">
+            <img class="status" src="img/status_icon.png" alt="">
+            <p class="name">Doe, John [NC] <span class="time"></span></p>
             <p class="title">PFETE Collégial - FSWEP College</p>
-            <div id="tools">
-                <ul>
-                    <li>IM</li>
-                    <li>Call</li>
-                    <li>Video</li>
-                    <li>Share</li>
-                </ul>
-            </div>
+            <img class="people" src="img/people.png" alt="">
+            <p class="Participants">2 Participants</p>
+            <hr>
         </header>
+
+        <br>
         
         <div id="chat">
             <webview style="opacity: 0.0;" id="webview" src="https://messenger.com"></webview> 
-            <img onclick="openEmojies()" style="display: hidden;" id="chatIcons" src="img/icons.jpg" alt="">    
         </div>
+
+        <img id="tools" src="img/icons.png" alt="">
 
 
 
