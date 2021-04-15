@@ -1,8 +1,8 @@
-# FBCamouflage
+# SneakyFacebookMessenger
 ## Description
 Welcome!
 
-FBCamouflage is a desktop program that lets you chat with friends on facebook while resembling Microsoft Lync 2010. It is for learning purposes and fun only. Use it with caution!
+SneakyFacebookMessenger is a desktop program that lets you chat with friends on facebook while resembling Microsoft Lync 2010. It is for learning purposes and fun only. Use it with caution!
 
 This program was made with Node.js using the Electron API. Since the app is really just Facebook Messenger loading in the back with some CSS injections, it is as safe to use as the web browser version.
 
